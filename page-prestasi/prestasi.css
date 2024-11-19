@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora:wght@100..800&display=swap" rel="stylesheet');
 *{
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 body {
     font-family: poppins;
     background-color: #f0f2f5;
 }
-
+body, html {
+    height: 100%; /* Make sure the body and HTML fill the viewport */
+}   
 .navbar {
     background-color: #ffffff;
     font-weight: 500;
     height: 70px;
    
+}
+.navbar li {
+    margin: 3rem;
 }
 .navbar-brand {
     font-weight: bold;
@@ -46,28 +52,56 @@ body {
 
 .info{
     background-color: #1a2a6c;
-    font-size: 14px;
-    max-height: 36px;
     color: #fff;
-    text-align: left;
-    padding: 5px;
-    padding-left: 80px;
+    padding: 10px 84px 10px 84px;
 }
 
-.login-box {
+.info-text{
+    margin: 0;
+}
+.prestasi-box {
     width: 100%;
-    max-width: 1600px;
-    min-height: 600px;
+    max-width: 1198px;
+    min-height: 524px;
     margin: 100px;
     background: white;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
-.login-box h3 {
+.prestasi-box h3 {
+    color: #475261;
     padding: 20px 20px;
-    font-size: 24;
+    font-size: 18;
     font-weight: 600;
 }
+
+.prestasi-box td{
+    font-family: sora;
+}
+
+.prestasi-box .btn-primary{
+    background-color: #1a2a6c;
+}
+
+.prestasi-box .me-2{
+    margin: 0;
+}
+
+.prestasi-box table{
+    font-size: 0.8rem;
+}
+
+.prestasi-box table tr{
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.prestasi-box .table-light{
+    color: #ADB5BD;
+}
+.prestasi-box .table-light tr th{
+    color: #ADB5BD;
+}
+
 .hero-section {
     background-image: url(/images/Frame\ 1686554737.png);
     background-color: #333; 
@@ -163,4 +197,11 @@ body {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+.content-wrapper {
+    flex: 1; 
 }

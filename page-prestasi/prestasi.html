@@ -42,15 +42,139 @@
     </nav>
     
     <div class="info">
-        <p>Home - Prestasi</p>
+        <p class="info-text">Home - Prestasi</p>
     </div>
 
-    <section class="login-box">
-            <h3>List Prestasi</h3>
-
-          </section>
-
-    <footer class="footer">
+    <div class="content-wrapper container">
+        <section class="d-flex justify-content-center align-items-center">
+            <div class="prestasi-box container my-5 p-4 bg-white rounded shadow-sm">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h3 class="fw-bold mb-0">List Prestasi</h3> 
+                    <div class="d-flex align-items-center">
+                        <form class="d-flex me-2" role="search"> <!-- Adjusted form with margin-right for spacing -->
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                        <button class="btn btn-primary">
+                            <i class="bi bi-plus-lg"></i> Tambahkan Prestasi
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="table table-borderless align-middle">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col">Juara</th>
+                                <th scope="col">Lomba</th>
+                                <th scope="col">Tingkat</th>
+                                <th scope="col">Waktu Pelaksanaan</th>
+                                <th scope="col">Penyelenggara</th>
+                                <th scope="col">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Juara 1</td>
+                                <td>Lomba Karya Tulis Ilmiah</td>
+                                <td>Nasional</td>
+                                <td>15 April 2023 s/d 20 Mei 2023</td>
+                                <td>Kementerian Pendidikan</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </button>
+                                    <button class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Juara 1</td>
+                                <td>Lomba Karya Tulis Ilmiah</td>
+                                <td>Nasional</td>
+                                <td>15 April 2023 s/d 20 Mei 2023</td>
+                                <td>Kementerian Pendidikan</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </button>
+                                    <button class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Juara 1</td>
+                                <td>Lomba Karya Tulis Ilmiah</td>
+                                <td>Nasional</td>
+                                <td>15 April 2023 s/d 20 Mei 2023</td>
+                                <td>Kementerian Pendidikan</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </button>
+                                    <button class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Juara 1</td>
+                                <td>Lomba Karya Tulis Ilmiah</td>
+                                <td>Nasional</td>
+                                <td>15 April 2023 s/d 20 Mei 2023</td>
+                                <td>Kementerian Pendidikan</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </button>
+                                    <button class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Juara 1</td>
+                                <td>Lomba Karya Tulis Ilmiah</td>
+                                <td>Nasional</td>
+                                <td>15 April 2023 s/d 20 Mei 2023</td>
+                                <td>Kementerian Pendidikan</td>
+                                <td>
+                                    <button class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-chat-dots"></i>
+                                    </button>
+                                    <button class="btn btn-outline-warning btn-sm">
+                                        <i class="bi bi-pencil"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div>
+                        <select class="form-select w-auto">
+                            <option selected>5</option>
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+                    <nav>
+                        <ul class="pagination pagination-sm mb-0">
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    
+    <footer class="footer mt-auto">
         <div class="container">
             <p>© 2024 SIPRESMA.</p>
         </div>
